@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a29a1c6f.css",
-    "main.js": "/my-app/static/js/main.36fb72cf.js",
-    "static/js/787.188949d6.chunk.js": "/my-app/static/js/787.188949d6.chunk.js",
-    "index.html": "/my-app/index.html",
-    "main.a29a1c6f.css.map": "/my-app/static/css/main.a29a1c6f.css.map",
-    "main.36fb72cf.js.map": "/my-app/static/js/main.36fb72cf.js.map",
-    "787.188949d6.chunk.js.map": "/my-app/static/js/787.188949d6.chunk.js.map"
+    "main.css": "/Medicareweb/static/css/main.a29a1c6f.css",
+    "main.js": "/Medicareweb/static/js/main.9395a287.js",
+    "static/js/787.188949d6.chunk.js": "/Medicareweb/static/js/787.188949d6.chunk.js",
+    "index.html": "/Medicareweb/index.html",
+    "main.a29a1c6f.css.map": "/Medicareweb/static/css/main.a29a1c6f.css.map",
+    "main.9395a287.js.map": "/Medicareweb/static/js/main.9395a287.js.map",
+    "787.188949d6.chunk.js.map": "/Medicareweb/static/js/787.188949d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a29a1c6f.css",
-    "static/js/main.36fb72cf.js"
+    "static/js/main.9395a287.js"
   ]
 }
