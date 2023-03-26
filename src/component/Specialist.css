@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.special{
+    
+    width: 90%;
+    margin: 0 auto;
+   margin-top: 5rem;
+   position: relative;
+}
+.special img{
+    width: 200px;
+    position: absolute;
+    left: 87.3%;
+}
+.special-text {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.special-text h1{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+margin-top: 4rem;
+
+
+text-align: center;
+
+color: #003B79;
+}
+.special-text p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 39px;
+
+
+text-align: center;
+
+color: #002348;
+}
+@media (max-width:1190px){
+    .special img{
+        width: 200px;
+        position: absolute;
+        left: 86.3%;
+    }
+}
+@media (max-width:1090px){
+    .special img{
+        width: 200px;
+        position: absolute;
+        left: 85%;
+    }
+}
+@media (max-width:1024px){
+    .special{
+    
+       
+       margin-top: 10rem;
+       
+    }
+    .special img{
+        width: 200px;
+        position: absolute;
+        left: 83%;
+    }
+    
+}
+@media (max-width:940px){
+    .special img{
+        width: 200px;
+        position: absolute;
+        left: 81%;
+    }
+}
+@media (max-width:870px){
+    .special{
+       margin-top: 15rem;
+    }
+    .special-text h1{
+       
+    font-size: 45px;
+   
+    }
+    .special img{
+        width: 180px;
+        position: absolute;
+        left: 81%;
+    }
+}
+@media (max-width:800px){
+    .special{
+        margin-top: 25rem;
+     }
+     .special-text h1{
+       
+        font-size: 40px;
+       
+        }
+     .special img{
+        width: 150px;
+        position: absolute;
+        left: 82%;
+    }
+}
+@media (max-width:720px){
+    .special img{
+        width: 140px;
+        position: absolute;
+        left: 80%;
+    }
+}
+@media (max-width:598px){
+    .special img{
+        width: 130px;
+        position: absolute;
+        left: 78%;
+    }
+    .special-text h1{
+       
+        font-size: 35px;
+       
+        }
+}
+@media (max-width:510px){
+    .special img{
+        width: 120px;
+        position: absolute;
+        left: 76%;
+    }
+    .special-text h1{
+       
+        font-size: 30px;
+       
+        }
+}
+@media (max-width:440px){
+    .special img{
+        width: 110px;
+        position: absolute;
+        left: 75%;
+    }
+    .special-text h1{
+       
+        font-size: 30px;
+       
+        }
+}
+@media (max-width:380px){
+    .special img{
+        width: 110px;
+        position: absolute;
+        left: 74%;
+    }
+    }

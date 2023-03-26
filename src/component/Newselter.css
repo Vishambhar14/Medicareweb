@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.newselter{
+    width: 90%;
+    margin: 0 auto;
+     height: 400px;
+      background: #007FF4;
+    border-radius: 20px; 
+    margin-top: 5rem;
+}
+.news-text{
+    display: flex;
+          flex-direction: column;
+          align-Items: center;
+          justify-Content: center;
+
+}
+.news-text h1{
+    margin-top: 4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size:  48px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+.news-text p{
+    margin-top: 1rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.news-search{
+    width:70%;
+    height:5rem;
+    margin-top:4rem;
+    display:flex;
+    justify-content:space-between;
+    padding:1rem;
+    align-Items:center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.news-search button{
+    color:white;
+    padding:0.6rem 1.5rem;
+
+        background: #007FF4;
+        border-radius:2rem;
+}
+.news-search button:hover{
+    color: #007FF4;
+     background:white;
+       border: 2px solid  #007FF4;
+}
+@media (max-width:540px){
+    .news-text h1{
+       
+    font-size:  35px;
+   
+    }
+    .news-text p{
+       
+        font-size: 15px;
+        
+    
+    }
+    .news-search{
+        width:90%;
+        height:4rem;
+        margin-top:1rem;
+        display:flex;
+        justify-content:space-between;
+        padding:1rem;
+        align-Items:center;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+    
+}
+@media (max-width:420px){
+    .news-text h1{
+        margin-top: 1rem;
+        font-size:  30px;
+        line-height: 39px;
+    }
+    .news-text p{
+     
+        font-family: Source Sans Pro;
+       
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    
+        color: #FFFFFF;
+    
+    }
+    .news-search{
+        width:70%;
+        height:8rem;
+        margin-top:2rem;
+        display:flex;
+       flex-direction: column;
+        padding:1rem;
+        align-Items:center;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+}
+   

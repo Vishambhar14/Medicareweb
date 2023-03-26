@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.service{
+    margin-top: 4rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.service-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service-text h1{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+margin-top: 4rem;
+
+
+text-align: center;
+
+color: #003B79;
+}
+.service-text p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 39px;
+/* or 195% */
+
+text-align: center;
+
+color: #002348;
+}
+
+@media (max-width:1120px){
+    .service{
+        margin-top: 10rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .service-text{
+       
+    margin-top: 6rem;
+
+    }
+}
